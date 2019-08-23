@@ -17,10 +17,9 @@ public class NodeRoot {
     /// <returns>返回执行结果</returns>
     public virtual ResultType Execute() { return ResultType.Fail; }
 
-    public Rect rect = new Rect(0, 0, 100, 100);
+    
     public bool isRelease = false;
     public void Release() {
         isRelease = true;
     }
-
 }

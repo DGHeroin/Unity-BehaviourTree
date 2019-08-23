@@ -1,10 +1,11 @@
 ﻿/// <summary>
 /// 修饰组合节点
 /// </summary>
-public class Decorator : NodeCombiner {
+public class NodeDecorator : NodeCombiner {
     private ResultType unitlResultType = ResultType.Fail;
 
-    public Decorator() : base(NodeType.Decorator) { }
+     
+    public NodeDecorator() : base(NodeType.Decorator) { }
     /// <summary>
     /// 修饰节点只有一个子节点, 执行子节点直到等于期待的结果, 再返回给父节点
     /// 否则一直返回Running

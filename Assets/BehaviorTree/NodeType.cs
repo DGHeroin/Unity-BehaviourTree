@@ -4,6 +4,10 @@
 /// </summary>
 public enum NodeType {
     /// <summary>
+    /// 
+    /// </summary>
+    Unknow,
+    /// <summary>
     /// 选择节点
     /// </summary>
     Select,

@@ -36,11 +36,11 @@ public class HeroActor : MonoBehaviour {
     private int maxFood = 100;   // >= max, 饭做好了
 
     [SerializeField, Header("厨房")]
-    private Transform doCookingTransform;
+    private Transform doCookingTransform = null;
     [SerializeField, Header("餐桌")]
-    private Transform eatFoodTransform;
+    private Transform eatFoodTransform = null;
     [SerializeField, Header("酒吧")]
-    private Transform saloonTransform;
+    private Transform saloonTransform = null;
 
 
     // Start is called before the first frame update

@@ -54,8 +54,8 @@ public class HeroActor : MonoBehaviour {
         while (true) {
             ChangeEnergy(-2);
             rootNode.Execute();
-            yield return new WaitForSeconds(0.5f);
-            // yield return null;
+            //yield return new WaitForSeconds(0.5f);
+             yield return null;
         }
     }
 
